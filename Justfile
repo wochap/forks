@@ -20,6 +20,26 @@ init:
     just _update_submodule_remote zsh-autocomplete marlonrichert
     just _update_submodule_remote mailnotify sumnerevans
 
+# Rebase a specific submodule against its upstream repository
+rebase repository_name:
+    #!/usr/bin/env bash
+
+    dir={{ repository_name }}
+    echo
+    echo "Rebasing $dir..."
+    cd "$dir" || exit 1
+    git fetch upstream
+    if git show-ref --verify --quiet refs/remotes/upstream/main; then
+        git rebase upstream/main || { echo "{{{{ style('error') }}}}Rebase failed in $dir{{ NORMAL }}"; exit 1; }
+    elif git show-ref --verify --quiet refs/remotes/upstream/master; then
+        git rebase upstream/master || { echo "{{{{ style('error') }}}}Rebase failed in $dir{{ NORMAL }}"; exit 1; }
+    else
+        echo "{{ style('error') }}Neither upstream/main nor upstream/master found in $dir{{ NORMAL }}"
+        exit 1
+    fi
+    cd - > /dev/null || exit 1
+    echo "{{ style('command') }}{{ GREEN }}Successfully rebased $dir{{ NORMAL }}"
+
 # Rebase all submodules against their upstream repositories
 rebase-all:
     #!/usr/bin/env bash
