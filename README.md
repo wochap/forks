@@ -16,4 +16,5 @@ $ just rebase {{repository_folder_name}}
 ## TODOs:
 
 - [ ] delete zsh-autocomplete
+- [ ] delete slurp
 
