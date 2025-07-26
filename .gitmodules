@@ -1,0 +1,27 @@
+[submodule "Tela-icon-theme"]
+	path = Tela-icon-theme
+	url = git@github.com:wochap/Tela-icon-theme.git
+[submodule "zsh-vi-mode"]
+	path = zsh-vi-mode
+	url = git@github.com:wochap/zsh-vi-mode.git
+[submodule "figlet-fonts"]
+	path = figlet-fonts
+	url = git@github.com:wochap/figlet-fonts.git
+[submodule "offlinemsmtp"]
+	path = offlinemsmtp
+	url = git@github.com:wochap/offlinemsmtp.git
+[submodule "slurp"]
+	path = slurp
+	url = git@github.com:wochap/slurp.git
+[submodule "synckeys"]
+	path = synckeys
+	url = git@github.com:wochap/synckeys.git
+[submodule "dircolors"]
+	path = dircolors
+	url = git@github.com:wochap/dircolors.git
+[submodule "zsh-autocomplete"]
+	path = zsh-autocomplete
+	url = git@github.com:wochap/zsh-autocomplete.git
+[submodule "mailnotify"]
+	path = mailnotify
+	url = git@github.com:wochap/mailnotify.git
