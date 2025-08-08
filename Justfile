@@ -13,6 +13,7 @@ init:
     just _update_submodule_remote Tela-icon-theme vinceliuice
     just _update_submodule_remote zsh-vi-mode jeffreytse
     just _update_submodule_remote figlet-fonts xero
+    just _update_submodule_remote hints AlfredoSequeida
     just _update_submodule_remote offlinemsmtp sumnerevans
     just _update_submodule_remote slurp emersion
     just _update_submodule_remote synckeys ademlabs

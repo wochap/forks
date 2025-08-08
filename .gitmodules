@@ -25,3 +25,6 @@
 [submodule "mailnotify"]
 	path = mailnotify
 	url = git@github.com:wochap/mailnotify.git
+[submodule "hints"]
+	path = hints
+	url = git@github.com:wochap/hints.git
