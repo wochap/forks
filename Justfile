@@ -63,7 +63,7 @@ rebase-all:
 
 check-upstream:
     set +x; \
-    for dir in $(git submodule --quiet foreach --recursive 'echo $path'); do \
+    for dir in $(git submodule --quiet foreach 'echo $path'); do \
       printf "\n"; \
       echo "Checking $dir..."; \
       cd "$dir" || exit 1; \
