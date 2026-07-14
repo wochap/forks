@@ -22,8 +22,17 @@ $ git submodule add git@github.com:wochap/dircolors.git
 # then update init in Justfile
 ```
 
+## Deleting forks
+
+```sh
+# removing dircolors fork
+$ git submodule deinit -f -- dircolors
+$ git rm -f dircolors
+$ rm -rf .git/modules/dircolors
+# $ git config -f .gitmodules --remove-section submodule.dircolors
+```
+
 ## TODOs:
 
-- [ ] delete zsh-autocomplete
-- [ ] delete slurp
+- [x] delete slurp
 

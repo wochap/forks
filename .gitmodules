@@ -10,9 +10,6 @@
 [submodule "offlinemsmtp"]
 	path = offlinemsmtp
 	url = git@github.com:wochap/offlinemsmtp.git
-[submodule "slurp"]
-	path = slurp
-	url = git@github.com:wochap/slurp.git
 [submodule "synckeys"]
 	path = synckeys
 	url = git@github.com:wochap/synckeys.git
