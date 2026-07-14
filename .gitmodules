@@ -28,3 +28,6 @@
 [submodule "hints"]
 	path = hints
 	url = git@github.com:wochap/hints.git
+[submodule "zsh-auto-notify"]
+	path = zsh-auto-notify
+	url = git@github.com:wochap/zsh-auto-notify.git

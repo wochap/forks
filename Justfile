@@ -17,6 +17,7 @@ init:
     just _update_submodule_remote offlinemsmtp sumnerevans
     just _update_submodule_remote slurp emersion
     just _update_submodule_remote synckeys ademlabs
+    just _update_submodule_remote zsh-auto-notify MichaelAquilina
     just _update_submodule_remote dircolors dracula
     just _update_submodule_remote zsh-autocomplete marlonrichert
     just _update_submodule_remote mailnotify sumnerevans
