@@ -5,7 +5,7 @@ A repository for managing my forks more easily. It provides commands to rebase a
 ## Gettings started
 
 ```sh
-# run once
+# run once or everytime you add a new fork
 $ just init
 
 # flow to update forks
@@ -19,6 +19,7 @@ $ just rebase-all
 
 ```sh
 $ git submodule add git@github.com:wochap/dircolors.git
+$ just init
 # then update init in Justfile
 ```
 
