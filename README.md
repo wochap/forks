@@ -19,8 +19,8 @@ $ just rebase-all
 
 ```sh
 $ git submodule add git@github.com:wochap/dircolors.git
+# update init fn in Justfile, and then run
 $ just init
-# then update init in Justfile
 ```
 
 ## Deleting forks
@@ -31,9 +31,5 @@ $ git submodule deinit -f -- dircolors
 $ git rm -f dircolors
 $ rm -rf .git/modules/dircolors
 # $ git config -f .gitmodules --remove-section submodule.dircolors
+# delete it from init block in Justfile
 ```
-
-## TODOs:
-
-- [x] delete slurp
-
