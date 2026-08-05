@@ -7,9 +7,6 @@
 [submodule "figlet-fonts"]
 	path = figlet-fonts
 	url = git@github.com:wochap/figlet-fonts.git
-[submodule "offlinemsmtp"]
-	path = offlinemsmtp
-	url = git@github.com:wochap/offlinemsmtp.git
 [submodule "synckeys"]
 	path = synckeys
 	url = git@github.com:wochap/synckeys.git
